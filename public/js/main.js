@@ -1,4 +1,4 @@
-const serverURI = "http://localhost:5000";
+const serverURI = "https://khkt-room.onrender.com";
 const TOKEN = localStorage.getItem("token");
 let myAva, myName;
 (async () => {
