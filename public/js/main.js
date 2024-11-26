@@ -9,6 +9,7 @@ let myAva, myName;
 			id: ROOM_ID
 		}
 	);
+	console.log(responsea);
 	if (responsea.status !== 200) {
 		window.location.href = `/room-not-found`;
 		return;
