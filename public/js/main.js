@@ -32,7 +32,7 @@ let myAva, myName;
 				},
 			}
 		);
-
+console.log(response);
 		const decodedToken = response.data; // Giả sử server trả về thông tin người dùng
 		myAva = decodedToken.message.avatar;
 		myName = decodedToken.message.fullName;
